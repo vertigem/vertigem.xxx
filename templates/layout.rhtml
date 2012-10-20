@@ -1,18 +1,22 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <title><%= title %></title>
   </head>
   <body>
-    <section>
-      <%= yield %> 
-    </section>
+    <div>
+    <header>
+      <h1> <a href="/">hermes.vertigem.xxx </a></h1>
+    </header>
+    <div>
+      <%= yield %>
+    </div>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      Hermes Vertigem - powered by <a href="http://cloudhead.io/toto">toto</a>
     </footer>
+    </div>
   </body>
 </html>
-
