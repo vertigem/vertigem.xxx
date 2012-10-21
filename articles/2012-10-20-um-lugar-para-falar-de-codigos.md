@@ -1,9 +1,10 @@
 ---
 title: Um lugar para falar de codigos
 date: 20/10/2012
+author: Duke
 
 
-Eu já tenho um blog em **[duke.vertigem.xxx](http://duke.vertigem.xxx)**, e a real é que estou bem feliz com ele, feliz o suficiente para não postar sobre códigos em geral, nesse blog eu escrevo sobre outras coisas, é mais pessoal, porém existe muitas ideias, dicas, problemas, projetos, etc que tem muito haver com códigos que acredito ser interessante compatilhar com as pessoas, mas misturar isso num blog com poemas, videos de musicas, textos malucos, etc não me parece legal para os dois tipo de pessoas que visitarem o blog. 
+Eu já tenho um blog em **[duke.vertigem.xxx](http://duke.vertigem.xxx)**, e a real é que estou bem feliz com ele, feliz o suficiente para não postar sobre códigos em geral, nesse blog eu escrevo sobre outras coisas, é mais pessoal, porém existe muitas ideias, dicas, problemas, projetos, etc que tem muito haver com códigos que acredito ser interessante compatilhar com as pessoas, mas misturar isso num blog com poemas, videos de musicas, textos malucos, etc não me parece legal para os dois tipo de pessoas que visitarem o blog.
 
 ~
 
