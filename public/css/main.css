@@ -64,6 +64,7 @@ body > div > header > h1 a {
   line-height: 100px;
   font-family: 'ChunkFive', 'Chunk Five' Helvetica, Arial, sans-serif;
   color: #FFE57F;
+  font-weight: normal;
 }
 
 .post header {
