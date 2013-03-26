@@ -2,3 +2,13 @@ dorothy
 =======
 
 A wonderful template for [toto](http://cloudhead.io/toto), the blogging engine.
+
+
+Vertigem Blog
+=============
+
+To convert scss run:
+
+``` bash
+sass --watch --scss assets/stylesheets/style.scss:public/css/main.css
+```

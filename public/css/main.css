@@ -1,135 +1,135 @@
-@font-face {
-  font-family: 'ChunkFive';
-  src: url('http://vertigem.xxx/fonts/chunkfive-webfont.eot');
-  src: url('http://vertigem.xxx/fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-  url('http://vertigem.xxx/fonts/chunkfive-webfont.woff') format('woff'),
-  url('http://vertigem.xxx/fonts/chunkfive-webfont.ttf') format('truetype'),
-  url('http://vertigem.xxx/fonts/chunkfive-webfont.svg#chunkfive_romanregular') format('svg');
+@charset "UTF-8";
+/* _reset
+-----------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0 none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
   font-weight: normal;
-  font-style: normal;
-}
+  text-align: left; }
 
-header, footer, section, article {
-	display: block;
-}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
 
-body > div{
-  margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 15px;
-  padding-top: 0;
-  width: 720px;
-}
+blockquote, q {
+  quotes: "" ""; }
 
-#by {
-	font-style: italic;
-  margin-right: 5px;
-	font-size: 28px;
-}
-#caption {
-	position: absolute;
-	font-size: 24px;
-	margin: -135px 0 0 70px;
-}
-#path {
-	color: #b53131;
-}
-.date {
-  font-style: italic;
-  float: right;
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* _general
+-----------------------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  font: normal Georgia, ​Times, ​serif;
+  font-size: 19px;
+  font-size: 1.9rem;
+  line-height: 32px;
+  line-height: 3.2rem;
+  color: #333; }
+
+h1 {
+  font-size: 36px;
+  font-size: 3.6rem;
+  line-height: 49px;
+  line-height: 4.9rem; }
+
+h2 {
+  font-size: 33px;
+  font-size: 3.3rem;
+  line-height: 46px;
+  line-height: 4.6rem; }
+
+h3 {
+  font-size: 30px;
+  font-size: 3.0rem;
   line-height: 43px;
-  margin-right: 30px;
-}
+  line-height: 4.3rem; }
+
+h4 {
+  font-size: 27px;
+  font-size: 2.7rem;
+  line-height: 40px;
+  line-height: 4.0rem; }
+
 a {
-  color: #ed245d;
-}
-h1 a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-body{
-  border-top: 12px solid #3f3631;
-  margin: 0;
-  padding: 20px;
-  background: #F1F1F1;
-}
+  color: #477B96;
+  font-style: italic; }
 
-body > div > header > h1 a {
-  font-size: 65px;
-  line-height: 100px;
-  font-family: 'ChunkFive', 'Chunk Five' Helvetica, Arial, sans-serif;
-  color: #FFE57F;
-  font-weight: normal;
-}
+.container {
+  width: 960px;
+  margin: 0 auto; }
 
-.post header {
-	margin-bottom: 10px;
-}
-.post .body p:first-child {
-	margin-top: 0;
-}
-.post .body p:last-child {
-	margin-bottom: 0;
-}
-.post {
-	margin-bottom: 30px;
-}
-.post .author{
-  font-weight: 700;
-  font-style: italic;
-}
-.post:last-child {
-  .post
-  margin-bottom: 10px;
-}
-.post p {
-  margin: 10px 0;
-}
-.post .more {
-  margin-top: -10px;
-  margin-right: 30px;
-  font-style: italic;
-  text-align: right;
-}
-.more a {
-  text-decoration: none;
-}
-.more a:hover { text-decoration: underline }
-body > div > header {
-	display: block;
-	line-height: 100px;
-	margin-bottom: 20px;
-}
-h1, h2, h3, h4 {
-  display: inline;
-  margin: 0;
-  font-weight: 600;
-}
-ul, li {
-  list-style-type: none;
-}
-code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
-}
-pre {
-  padding: 20px;
-}
-blockquote {
-  font-style: italic;
-}
+section {
+  float: left;
+  width: 100%; }
 
-body > footer {
-  text-align: left;
-  margin-left: 10px;
-	font-style: italic;
-  font-size: 18px;
-  color: #888;
-}
-.comments{
-  margin-top: 30px;
-}
+article {
+  border-bottom: 1px solid #DDDDDD;
+  margin-top: 2.5em;
+  float: left; }
+  article header {
+    width: 20%;
+    float: left; }
+    article header .author {
+      color: #aaa;
+      font-size: 16px; }
+    article header time {
+      color: #CCC; }
+  article .post-content {
+    margin: 0 auto 2em;
+    width: 75%;
+    float: right; }
+    article .post-content h2 {
+      text-align: left;
+      margin-bottom: 10px;
+      margin-bottom: 1rem; }
+      article .post-content h2 a {
+        text-decoration: none;
+        color: #000; }
+        article .post-content h2 a:hover {
+          text-decoration: underline; }
+    article .post-content p, article .post-content h2 {
+      margin: 1rem auto;
+      width: 100%; }
+
+#comments .comment {
+  border-bottom: 1px solid #DDDDDD;
+  margin: 0.7em 0;
+  padding: 10px 0; }
+  #comments .comment p {
+    margin: 0.4em auto; }
+    #comments .comment p .author {
+      font-weight: bold; }
+    #comments .comment p .date {
+      color: #aaa; }
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 3em;
+  float: left;
+  width: 100%; }

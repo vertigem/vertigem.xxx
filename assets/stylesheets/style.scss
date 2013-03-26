@@ -1,0 +1,169 @@
+/* _reset
+-----------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0 none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* _general
+-----------------------------------------------------------------------------*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: normal Georgia, ​Times, ​serif;
+  font-size: 19px; font-size: 1.9rem;
+  line-height: 32px; line-height: 3.2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px; font-size: 3.6rem;
+  line-height: 49px; line-height: 4.9rem;
+}
+
+h2 {
+  font-size: 33px; font-size: 3.3rem;
+  line-height: 46px; line-height: 4.6rem;
+}
+
+h3 {
+  font-size: 30px; font-size: 3.0rem;
+  line-height: 43px; line-height: 4.3rem;
+}
+
+h4 {
+  font-size: 27px; font-size: 2.7rem;
+  line-height: 40px; line-height: 4.0rem;
+}
+
+p {
+
+}
+
+
+a {
+  color: #477B96;
+  font-style: italic;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  float: left;
+  width: 100%;
+}
+
+article {
+  border-bottom: 1px solid #DDDDDD;
+  margin-top: 2.5em;
+  float: left;
+
+  header {
+    width: 20%;
+    float: left;
+
+    .author{
+      color: #aaa;
+      font-size: 16px;
+    }
+    time{
+      color: #CCC;
+    }
+  }
+
+  .post-content {
+    margin: 0 auto 2em;
+    width: 75%;
+    float: right;
+
+    h2 {
+      text-align: left;
+      margin-bottom: 10px; margin-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    p, h2 {
+      margin: 1rem auto;
+      width: 100%;
+    }
+  }
+}
+
+#comments{
+  .comment {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0.7em 0;
+    padding: 10px 0;
+    p {
+      margin: 0.4em auto;
+
+      .author {
+        font-weight: bold;
+      }
+
+      .date {
+        color: #aaa;
+      }
+    }
+  }
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 3em;
+  float: left;
+  width: 100%;
+}

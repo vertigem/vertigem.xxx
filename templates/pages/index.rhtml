@@ -1,19 +1,18 @@
-<section id="articles">
-  <% for article in articles[0...13] %>
+<% for article in articles[0...13] %>
+  <section>
     <article class="post">
       <header>
-        <h1><a href="<%= article.path %>"><%= article.title %></a></h1>
-        <span class="date"><%= article.date %></span>
+        <p class="author"><%= article.author %></p>
+        <time class="date"><%= article.date %></time>
       </header>
-
-      <section class="content">
+      <div class='post-content'>
+        <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
         <%= article.summary %>
-      </section>
-      <div class="more"><a href="<%= article.path %>"> continuar &raquo;</a></div>
+      </div>
     </article>
-  <% end %>
-</section>
+  </section>
+<% end %>
 
-<section id="archives">
-  <%= archives[13..-1] %>
-</section>
+  <section id="archives">
+    <%= archives[13..-1] %>
+  </section>
