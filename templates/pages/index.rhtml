@@ -1,16 +1,14 @@
 <% for article in articles[0...13] %>
-  <section>
-    <article class="post">
-      <header>
-        <p class="author"><%= article.author %></p>
-        <time class="date"><%= article.date %></time>
-      </header>
-      <div class='post-content'>
-        <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
-        <%= article.summary %>
-      </div>
-    </article>
-  </section>
+<article class="post">
+  <header>
+    <p class="author"><%= article.author %></p>
+    <time class="date"><%= article.date %></time>
+  </header>
+  <div class='post-content'>
+    <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
+    <%= article.summary %>
+  </div>
+</article>
 <% end %>
 <section id="archives">
   <%= archives[13..-1] %>

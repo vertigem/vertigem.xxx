@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+
 /* _reset
 -----------------------------------------------------------------------------*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -51,10 +53,16 @@ html {
 }
 
 body {
-  font: normal Georgia, ​Times, ​serif;
-  font-size: 19px; font-size: 1.9rem;
-  line-height: 32px; line-height: 3.2rem;
-  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px; font-size: 2.3rem;
+  font-style: normal;
+  line-height: 1.5;
+  color: #444;
+  background: #F7F7F7
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
 }
 
 h1 {
@@ -78,19 +86,23 @@ h4 {
 }
 
 p {
-
+  font-weight: 600;
 }
 
 
 a {
   color: #477B96;
-  font-style: italic;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+h1 a{
+  color: #ED245D;
+  text-decoration: none;
 }
 
 article {
@@ -105,8 +117,7 @@ article {
 
     .author{
       color: #555;
-      font-size: 20px;
-      font-style: italic;
+      font-weight: 600;
     }
     time{
       color: #999;
@@ -127,7 +138,7 @@ article {
       margin-bottom: 10px; margin-bottom: 1rem;
 
       a {
-        text-decoration: none;
+        text-decoration: underline;
         color: #000;
 
         &:hover {
