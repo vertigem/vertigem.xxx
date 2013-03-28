@@ -85,7 +85,7 @@ p {
 a {
   color: #477B96; }
 
-.container {
+.container, #archives {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px; }
@@ -94,11 +94,26 @@ h1 a {
   color: #ED245D;
   text-decoration: none; }
 
+#archives {
+  border: 1px solid #CCC;
+  float: left;
+  width: 100%;
+  padding: 10px 15px; }
+  #archives ul {
+    margin: 0; }
+  #archives li {
+    list-style: none; }
+
 article {
-  border-bottom: 1px solid #DDDDDD;
-  margin-top: 2.5em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
   float: left;
   width: 100%; }
+  article + article {
+    border-top: 1px solid #DDDDDD; }
+  article:last-child {
+    border: 1px solid red;
+    border-bottom: 1px solid #DDDDDD; }
   article header {
     width: 15%;
     float: left; }

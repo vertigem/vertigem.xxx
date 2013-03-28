@@ -94,7 +94,7 @@ a {
   color: #477B96;
 }
 
-.container {
+.container, #archives {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
@@ -105,11 +105,32 @@ h1 a{
   text-decoration: none;
 }
 
-article {
-  border-bottom: 1px solid #DDDDDD;
-  margin-top: 2.5em;
+#archives{
+  border: 1px solid #CCC;
   float: left;
   width: 100%;
+  padding: 10px 15px;
+  ul{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+}
+article {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  float: left;
+  width: 100%;
+
+  + article{
+    border-top: 1px solid #DDDDDD;
+  }
+
+  &:last-child{
+    border: 1px solid red;
+    border-bottom: 1px solid #DDDDDD;
+  }
 
   header {
     width: 15%;
