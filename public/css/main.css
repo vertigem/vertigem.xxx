@@ -139,6 +139,9 @@ article {
         color: #000; }
         article .post-content h2 a:hover {
           text-decoration: underline; }
+  article .comments {
+    width: 80%;
+    float: right; }
 
 #comments .comment {
   border-bottom: 1px solid #DDDDDD;
