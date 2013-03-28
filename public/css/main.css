@@ -112,7 +112,6 @@ article {
   article + article {
     border-top: 1px solid #DDDDDD; }
   article:last-child {
-    border: 1px solid red;
     border-bottom: 1px solid #DDDDDD; }
   article header {
     width: 15%;
