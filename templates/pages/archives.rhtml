@@ -1,11 +1,24 @@
-<h1>Arquivo</h1>
-<ul>
-  <% if archives.length > 0 %>
-    <% for entry in archives %>
-      <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
-      </li>
-    <% end %>
+<% if @path != 'index' %>
+<div id="archive_page">
   <% end %>
-</ul>
+  <h2>Arquivo <%= @path %></h2>
+  <ul class="post">
+    <% if archives.length > 0 %>
+    <% for entry in archives %>
+    <li>
+      <% if @path != 'index' %>
+      <time> <%= entry.archive_date %> </time>
+      <% end %>
+      <a href="<%= entry.path %>">
+        <%= entry.title %>
+      </a>
+    </li>
+    <% end %>
+    <% end %>
+  </ul>
 
+  <% if @path != 'index' %>
+</div>
+<% else %>
+<a href="/<%= Time.now.year %>"><%= Time.now.year %></a>
+<% end %>

@@ -1,4 +1,4 @@
-<% for article in articles[0...13] %>
+<% articles.select {|a| a[:date] <= Date.today}[0...10].each do |article| %>
 <article class="post">
   <header>
     <p class="author"><%= article.author %></p>
@@ -10,6 +10,7 @@
   </div>
 </article>
 <% end %>
+
 <section id="archives">
   <%= archives[13..-1] %>
 </section>

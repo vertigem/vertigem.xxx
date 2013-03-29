@@ -1,50 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
-
-/* _reset
------------------------------------------------------------------------------*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0 none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-caption, th, td {
-  font-weight: normal;
-  text-align: left;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: "";
-}
-
-blockquote, q {
-  quotes: "" "";
-}
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
+@import 'reset';
 
 /* _general
 -----------------------------------------------------------------------------*/
@@ -76,17 +31,17 @@ h2 {
 }
 
 h3 {
-  font-size: 30px; font-size: 3.0rem;
-  line-height: 43px; line-height: 4.3rem;
-}
-
-h4 {
   font-size: 27px; font-size: 2.7rem;
   line-height: 40px; line-height: 4.0rem;
 }
 
+h4 {
+  font-size: 21px; font-size: 2.1rem;
+  line-height: 34px; line-height: 3.4rem;
+}
+
 p {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 
@@ -94,6 +49,9 @@ a {
   color: #477B96;
 }
 
+pre code{
+  font-family: monospace;
+}
 .container, #archives {
   max-width: 960px;
   margin: 0 auto;
@@ -103,6 +61,36 @@ a {
 h1 a{
   color: #ED245D;
   text-decoration: none;
+}
+
+#archive_page{
+  h2{
+    margin: 20px 0 10px 0;
+  }
+  .post{
+
+    li{
+      list-style: none;
+      overflow: hidden;
+      padding: 5px 0 5px 0;
+      a{
+        text-decoration: none;
+        width: 80%;
+        float: right;
+        font-size: 23px; font-size: 2.3rem;
+      }
+      time{
+        font-weight: 700;
+        font-size: 1.5;
+        text-align: right;
+        display: block;
+        float: left;
+        width: 18%;
+        font-size: 20px; font-size: 2.0rem;
+        color: #999;
+      }
+    }
+  }
 }
 
 #archives{
@@ -152,6 +140,9 @@ article {
       margin: 1rem auto;
       width: 100%;
     }
+    p{
+      margin-top: 0;
+    }
     h2 {
       text-align: left;
       margin-top: 0;
@@ -165,6 +156,11 @@ article {
           text-decoration: underline;
         }
       }
+    }
+    h3{
+      margin-bottom: 0px;
+      margin-top: 30px; margin-top: 3rem;
+
     }
   }
   .comments{
