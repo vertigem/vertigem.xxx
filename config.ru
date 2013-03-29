@@ -1,6 +1,12 @@
 require 'bundler'
 Bundler.require
 
+path = File.expand_path(File.join(File.dirname(__FILE__), 'lib'))
+$LOAD_PATH << path
+
+
+require 'vertigem_toto'
+
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
 use Rack::CommonLogger
