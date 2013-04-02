@@ -85,8 +85,15 @@ p {
 a {
   color: #477B96; }
 
+pre, ul {
+  margin: 20px 0; }
+
 pre code {
   font-family: monospace; }
+
+code {
+  font-family: monospace;
+  padding: 3px; }
 
 .container, #archives {
   max-width: 960px;
