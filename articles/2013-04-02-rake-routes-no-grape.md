@@ -1,5 +1,5 @@
 ---
-title: ! 'rake routes no Grape '
+title: ! 'rake routes no Grape'
 date: 02/04/2013
 author: Duke
 
