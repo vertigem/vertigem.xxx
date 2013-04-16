@@ -83,10 +83,14 @@ p {
   font-weight: 400; }
 
 a {
-  color: #477B96; }
+  color: #477B96;
+  text-decoration: none; }
 
 pre, ul {
   margin: 20px 0; }
+
+ul {
+  list-style-position: inside; }
 
 pre code {
   font-family: monospace; }
@@ -164,12 +168,12 @@ article {
     article .post-content p {
       margin-top: 0; }
     article .post-content h2 {
+      font-size: 39px;
       text-align: left;
       margin-top: 0;
       margin-bottom: 10px;
       margin-bottom: 1rem; }
       article .post-content h2 a {
-        text-decoration: underline;
         color: #000; }
         article .post-content h2 a:hover {
           text-decoration: underline; }

@@ -47,12 +47,16 @@ p {
 
 a {
   color: #477B96;
+  text-decoration: none
 }
 
 pre, ul{
   margin: 20px 0;
 }
 
+ul{
+  list-style-position: inside;
+}
 pre code{
   font-family: monospace;
 }
@@ -78,7 +82,6 @@ h1 a{
     margin: 20px 0 10px 0;
   }
   .post{
-
     li{
       list-style: none;
       overflow: hidden;
@@ -115,6 +118,7 @@ h1 a{
     list-style: none;
   }
 }
+
 article {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
@@ -154,12 +158,12 @@ article {
       margin-top: 0;
     }
     h2 {
+      font-size: 39px;
       text-align: left;
       margin-top: 0;
       margin-bottom: 10px; margin-bottom: 1rem;
 
       a {
-        text-decoration: underline;
         color: #000;
 
         &:hover {
