@@ -3,12 +3,11 @@ title: Projeto Laptop, script para setup rapido do Mac OS
 date: 16/04/2013
 author: Duke
 
-Há tempos venho acompanhando o projeto [thoughtbot/laptop](https://github.com/thoughtbot/laptop) no github, o projeto é um script que já baixa e configurar ferramentas/bibliotecas, coisas que normalmente são utilizadas por desenvolvedores. Coisas como ImageMagick, Homebrew, Heroku Toolbelt, etc. A uns dois anos atras eu criei [um gist](https://gist.github.com/dukex/1035129) que era parecido, fix esse gist enquanto configurava o novo computador, e ia atualizando a cada novo set up. 
+Há tempos venho acompanhando o projeto [thoughtbot/laptop](https://github.com/thoughtbot/laptop) no github, o projeto é um script que já baixa e configurar ferramentas/bibliotecas, coisas que normalmente são utilizadas por desenvolvedores. Coisas como ImageMagick, Homebrew, Heroku Toolbelt, etc. A uns dois anos atras eu criei [um gist](https://gist.github.com/dukex/1035129) que era parecido, fix esse gist enquanto configurava o novo computador, e ia atualizando a cada novo set up.
 
 Estava com um computador zerado e resolvi usar o [thoughtbot/laptop](https://github.com/thoughtbot/laptop), mas não uso o postgres do homebrew e gostaria de adicionar varias coisas que instalo sempre nos meus computadores, iTerm2, por exemplo. Então resolvi fazer um fork do [thoughtbot/laptop](https://github.com/thoughtbot/laptop) para [vertigem/lapto](https://github.com/vertigem/laptop).
 
-Fazendo um diff o que modifiquei foi o seguinte:  
-
+Fazendo um diff o que modifiquei foi o seguinte:<br />
 \+ [iTerm2](http://www.iterm2.com), prefiro o iterm2 ao Terminal.app, alem do comandos tem split de telas e varias outras coisas
 
 \+ [dukex/oh-my-zsh](https://github.com/dukex/oh-my-zsh), o projeto da thoughtbot já instala e configura o zsh, mas sem o oh-my-zsh
