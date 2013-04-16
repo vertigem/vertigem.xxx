@@ -1,32 +1,39 @@
+GIT
+  remote: git://github.com/vertigem/toto.git
+  revision: d6bc8418ca42d88e6ec26dbf28034f249fa0c249
+  branch: jruby-support
+  specs:
+    toto (0.4.9)
+      builder
+      maruku
+      rack
+
 GEM
   remote: http://rubygems.org/
   specs:
-    builder (3.1.4)
-    daemons (1.1.9)
-    eventmachine (1.0.0)
+    builder (3.2.0)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
     newrelic_rpm (3.5.8.72)
-    rack (1.4.1)
+    puma (1.6.3)
+      rack (~> 1.2)
+    puma (1.6.3-java)
+      rack (~> 1.2)
+    rack (1.5.2)
     rake (0.9.2.2)
-    rdiscount (1.6.8)
-    redcarpet (2.2.2)
+    sass (3.2.7)
     shotgun (0.9)
       rack (>= 1.0)
-    thin (1.5.0)
-      daemons (>= 1.0.9)
-      eventmachine (>= 0.12.6)
-      rack (>= 1.0.0)
-    toto (0.4.9)
-      builder
-      rack
-      rdiscount
+    syntax (1.0.0)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   newrelic_rpm
+  puma
   rake
-  redcarpet
+  sass
   shotgun
-  thin
-  toto
+  toto!
