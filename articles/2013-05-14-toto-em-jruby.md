@@ -5,9 +5,10 @@ author: Duke
 
 Para quem não conhece o toto, vai uma descrição rápida:
 
-	toto is a git-powered, minimalist blog engine for the hackers of Oz. 
-	The engine weighs around ~300 sloc at its worse. There is no toto
-	client, at least for now; everything goes through git.
+	toto is a git-powered, minimalist blog engine for the
+	hackers of Oz. The engine weighs around ~300 sloc at
+	its worse. There is no toto client, at least for now;
+	everything goes through git.
 
 Estou usando o toto nesse blog e como ando brincando com jruby, resolvi portar o toto para jruby.
 
@@ -19,17 +20,16 @@ O ultimo problema aconteceu com os parametros das gem que gera o mardown em html
 
 No repositório do meu blog, atualizei meu ```Gemfile```([4f145cba](https://github.com/vertigem/vertigem.xxx/commit/4f145cba00a0646668e59c43af4d03f7da0adb34)) para algo assim:
 
-```
-source 'http://rubygems.org' 
 
-ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.3' # heroku support jruby
+	source 'http://rubygems.org'
 
-# gem 'toto'
-gem 'toto', github: 'vertigem/toto', branch: 'jruby-support' 
-# gem 'thin'
-gem 'puma'
+	ruby '1.9.3', :engine => 'jruby',
+		:engine_version => '1.7.3'
 
-```
+	gem 'toto', github: 'vertigem/toto',
+		branch: 'jruby-support'
+	gem 'puma'
+
 
 Pronto, mandei para o heroku e toto está rodando com jruby
 
