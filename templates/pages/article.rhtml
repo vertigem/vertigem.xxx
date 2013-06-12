@@ -1,18 +1,17 @@
-<article class="post">
+<article>
   <header>
-    <p class="author"><%= author %></p>
-    <time class="date"><%= date %></time>
+    <span class="author"><%= author %></span> - <time class="date"><%= date %></time>
+    <h2><%= title %></h2>
   </header>
-  <div class='post-content'>
-    <h2><a href="<%= article.path %>"><%= title %></a></h2>
-    <%= body %>
-  </div>
+  <%= body %>
+
+
   <section class="comments">
     <% if @config[:disqus] %>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>
-      <noscript><a href="http://<%= @config[:disqus] %>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>
+    <noscript><a href="http://<%= @config[:disqus] %>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
     <% end %>
   </section>
 

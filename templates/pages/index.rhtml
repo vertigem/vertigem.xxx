@@ -1,16 +1,11 @@
-<% articles.select {|a| a[:date] <= Date.today}[0...10].each do |article| %>
-<article class="post">
-  <header>
-    <p class="author"><%= article.author %></p>
-    <time class="date"><%= article.date %></time>
-  </header>
-  <div class='post-content'>
+<ul id="posts">
+  <% articles.select {|a| a[:date] <= Date.today}[0...10].each do |article| %>
+  <li class="post">
+    <div class="meta">
+      <span class="author"><%= article.author %></span> -
+      <time class="date"><%= article.date %></time>
+    </div>
     <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
-    <%= article.summary %>
-  </div>
-</article>
-<% end %>
-
-<section id="archives">
-  <%= archives[13..-1] %>
-</section>
+  </li>
+  <% end %>
+</ul>
