@@ -7,7 +7,8 @@ Há tempos venho acompanhando o projeto [thoughtbot/laptop](https://github.com/t
 
 Estava com um computador zerado e resolvi usar o [thoughtbot/laptop](https://github.com/thoughtbot/laptop), mas não uso o postgres do homebrew e gostaria de adicionar varias coisas que instalo sempre nos meus computadores, iTerm2, por exemplo. Então resolvi fazer um fork do [thoughtbot/laptop](https://github.com/thoughtbot/laptop) para [vertigem/lapto](https://github.com/vertigem/laptop).
 
-Fazendo um diff o que modifiquei foi o seguinte:<br />
+Fazendo um diff o que modifiquei foi o seguinte:
+
 \+ [iTerm2](http://www.iterm2.com), prefiro o iterm2 ao Terminal.app, alem do comandos tem split de telas e varias outras coisas
 
 \+ [dukex/oh-my-zsh](https://github.com/dukex/oh-my-zsh), o projeto da thoughtbot já instala e configura o zsh, mas sem o oh-my-zsh
