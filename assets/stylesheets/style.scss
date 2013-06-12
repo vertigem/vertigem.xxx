@@ -3,11 +3,10 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  /*font-size: 23px; font-size: 2.3rem;*/
-  /*font-style: normal;*/
+  font-style: normal;
   line-height: 1.624;
-  /*color: #444;*/
-  /*background: #F7F7F7;*/
+  color: #444;
+  background: #F7F7F7;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -39,23 +38,15 @@ a {
   text-decoration: none
 }
 
-/*pre, ul{*/
-  /*margin: 20px 0;*/
-/*}*/
+pre{
+  margin: 22.537px 0;
+  white-space: pre-wrap;
+}
 
-/*ul{*/
-  /*list-style-position: inside;*/
-/*}*/
-
-/*pre code{*/
-  /*font-family: monospace;*/
-/*}*/
-
-/*code{*/
-  /*font-family: monospace;*/
-  /*padding: 3px;*/
-/*}*/
-
+code{
+  font-family: monospace;
+  padding: 3.289px;
+}
 
 /*.container, #archives {*/
   /*//max-width: 960px;*/
@@ -90,8 +81,7 @@ body>header{
   time{
     color: #999;
   }
-
-  ul{
+  ul#posts{
     list-style-type: none;
     li{
       overflow: hidden;
@@ -118,6 +108,10 @@ body>header{
 article{
   h2{
     line-height: 1.256
+  }
+  ul{
+    list-style-position: inside;
+    margin: 13.929px
   }
 }
 

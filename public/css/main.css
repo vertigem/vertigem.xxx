@@ -40,11 +40,10 @@ em {
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  /*font-size: 23px; font-size: 2.3rem;*/
-  /*font-style: normal;*/
+  font-style: normal;
   line-height: 1.624;
-  /*color: #444;*/
-  /*background: #F7F7F7;*/ }
+  color: #444;
+  background: #F7F7F7; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
@@ -72,19 +71,14 @@ a {
   color: #477B96;
   text-decoration: none; }
 
-/*pre, ul{*/
-/*margin: 20px 0;*/
-/*}*/
-/*ul{*/
-/*list-style-position: inside;*/
-/*}*/
-/*pre code{*/
-/*font-family: monospace;*/
-/*}*/
-/*code{*/
-/*font-family: monospace;*/
-/*padding: 3px;*/
-/*}*/
+pre {
+  margin: 22.537px 0;
+  white-space: pre-wrap; }
+
+code {
+  font-family: monospace;
+  padding: 3.289px; }
+
 /*.container, #archives {*/
 /*//max-width: 960px;*/
 /*//margin: 0 auto;*/
@@ -112,25 +106,28 @@ body > header {
     font-weight: 600; }
   #content time {
     color: #999; }
-  #content ul {
+  #content ul#posts {
     list-style-type: none; }
-    #content ul li {
+    #content ul#posts li {
       overflow: hidden;
       padding-top: 36.465px; }
-    #content ul h2 {
+    #content ul#posts h2 {
       font-size: 47.123px;
       line-height: 1.256;
       text-align: left;
       margin: 13.929px 1.004px;
       margin-top: 0;
       float: left; }
-      #content ul h2 a {
+      #content ul#posts h2 a {
         color: #000; }
-        #content ul h2 a:hover {
+        #content ul#posts h2 a:hover {
           text-decoration: underline; }
 
 article h2 {
   line-height: 1.256; }
+article ul {
+  list-style-position: inside;
+  margin: 13.929px; }
 
 /*#archive_page{*/
 /*h2{*/
