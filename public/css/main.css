@@ -37,6 +37,7 @@ em {
   margin: 0;
   padding: 0; }
 
+/* http://modularscale.com/scale/?px1=23&px2=100&ra1=1.618 */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 23px;
@@ -95,7 +96,8 @@ body > header {
 
 #content {
   max-width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 14.591px; }
   #content .author {
     color: #555;
     font-weight: 600; }
