@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vertigem/toto.git
-  revision: d6bc8418ca42d88e6ec26dbf28034f249fa0c249
+  revision: 4c9f398d40bd65e27e8ad69fa0980889b0d947b4
   branch: jruby-support
   specs:
     toto (0.4.9)
@@ -11,7 +11,7 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    builder (3.2.0)
+    builder (3.2.2)
     maruku (0.6.1)
       syntax (>= 1.0.0)
     newrelic_rpm (3.5.8.72)
