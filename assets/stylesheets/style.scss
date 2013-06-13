@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 700;
 }
 
+h3, h4 {
+  padding-top: 14.215px;
+}
+
 h1{
   font-size: 97.423px;
 }
@@ -22,13 +26,11 @@ h2{
   font-size: 61.805px;
 }
 h3{
-  font-size: 60.212px;
-}
-h4{
   font-size: 38.198px;
 }
-h5{
-  font-size: 37.214px;
+h4{
+  font-size: 23.608px;
+  border-bottom: 1px solid #333;
 }
 
 
@@ -52,8 +54,11 @@ code{
   padding: 3.445px;
 }
 
-header{
-  padding-bottom: 23.608px;
+blockquote{
+  border-left: 8px solid #ED245D;
+  padding-left: 20px;
+  font-style: italic;
+  color: #555
 }
 
 body>header{
