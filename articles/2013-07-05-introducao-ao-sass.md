@@ -7,7 +7,7 @@ O que é o Sass? de acordo com o [site do sass](sass-lang.com):
 
 <blockquote>Sass é uma meta-linguagem em cima do CSS que usada para descrever documentos de estilo de forma limpa e estruturada, com mais poder do que o CSS permite.</blockquote>
 
-O **Sass** não é uma linguagem de programação, não tem nada haver com OOCSS, Sass é uma meta-linguagem ou um pré-processador, o Sass tem um compilador que escreve CSS. O Sass é um tanto antigo já, um cara chamado [Hampton Catlin](http://www.hamptoncatlin.com) criou ele lá em meados de 2008. Está atualmente na sua versão
+O **Sass** não é uma linguagem de programação, não tem nada haver com OOCSS, Sass é uma meta-linguagem ou um pré-processador, o Sass tem um compilador que escreve CSS. O Sass é um tanto antigo já, um cara chamado [Hampton Catlin](http://www.hamptoncatlin.com) o criou lá em meados de 2008. Está atualmente na sua versão
 
 
 ### Instalação
@@ -22,7 +22,7 @@ Pronto! O sass esta instalado.
 
 ### Sobre AS syntax do sass
 
-Antes de começar entendam uma coisa, o Sass tem 2 formas de ser escrito, 2 syntax, o forma *sass* e a *scss*. A *sass* é uma outra forma de escrever css, entre as diferenças utiliza tabulações e não se usa ponto e virgula no final, é a syntax original do Sass. A *scss* nasceu na [versão 3](http://sass-lang.com/docs/yardoc/file.SASS_CHANGELOG.html#3-0-0) ela é um superset do CSS, ou seja, você escreve CSS mas com as funcionalidades do SASS, você pode pegar qualquer arquivo CSS que ele é valido como um SCSS. Se você está se perguntando *'Qual é a melhor forma?'*, o post [Sass vs. Scss: Which Syntax is Better](http://thesassway.com/articles/sass-vs-scss-which-syntax-is-better) pode ajudar, eu acredito que depende de cada um, minha preferencia é escrever com a syntax sass sempre!
+Antes de começar entendam uma coisa, o Sass tem duas formas de ser escrito, duas syntax, a forma *sass* e a *scss*. A *sass* é uma outra forma de escrever css, entre as diferenças utiliza tabulações e não se usa ponto e virgula no final, é a syntax original do Sass. A *scss* nasceu na [versão 3](http://sass-lang.com/docs/yardoc/file.SASS_CHANGELOG.html#3-0-0) ela é um superset do CSS, ou seja, você escreve CSS mas com as funcionalidades do SASS, você pode pegar qualquer arquivo CSS que ele é valido como um SCSS. Se você está se perguntando *'Qual é a melhor forma?'*, o post [Sass vs. Scss: Which Syntax is Better](http://thesassway.com/articles/sass-vs-scss-which-syntax-is-better) pode ajudar, eu acredito que depende de cada um, minha preferencia é escrever com a syntax sass sempre!
 
 
 ### Usando Sass
@@ -103,7 +103,7 @@ Vamos ver como fica, agora nosso arquivo <code>hello-word.scss</code>
   }
 }</code></pre>
 
-Ótimos usamos os aninhamentos, no nosso exemplo não temos muitos ganhos nem perdas, mas aninhamento pode tanto ajudar como atrapalhar, use com cuidado, é interessante não passar do 3º nível. Lembrando que sempre o css gera é igual o nosso inicial.
+Ótimos usamos os aninhamentos, no nosso exemplo não temos muitos ganhos nem perdas, mas aninhamento pode tanto ajudar como atrapalhar, use com cuidado, é interessante não passar do 3º nível. Lembrando que sempre o css gerado será igual o nosso inicial.
 
 No sass podemos usar o **&** para referenciar o seletor atual, por exemplo, em:
 
