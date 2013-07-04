@@ -340,6 +340,6 @@ O [Codekit](http://incident57.com/codekit/) faz bastante coisa, uma delas é con
 
 ---
 
-Alem disso, quem trabalha com Rails sabe que o por padrão ele suporta, para outros frameworks em Ruby(Rack), como Sinatra, existe a gem (sprockets-sass)[https://github.com/petebrowne/sprockets-sass] que faz o processo ficar transparente.
+Alem disso, quem trabalha com Rails sabe que o por padrão ele suporta, para outros frameworks em Ruby(Rack), como Sinatra, existe a gem [sprockets-sass](https://github.com/petebrowne/sprockets-sass) que faz o processo ficar transparente.
 
 **- Duke**
