@@ -30,3 +30,4 @@ Fazendo um diff o que modifiquei foi o seguinte:
 
 Eu não vou mandar um pull-request para o repositorio da Thoughtbot, a não ser que exista algo que possa realmente ajudar eles, por que claramente a idéia deles não é a mesma que a minha, eles querem agilizar o processo de configuração para desenvolvedores, e eu já estou indo além disso.
 
+***<a href="https://plus.google.com/109270548417191996419?rel=author">- Duke</a>***

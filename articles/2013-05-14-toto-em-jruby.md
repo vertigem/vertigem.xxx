@@ -27,3 +27,4 @@ No repositório do meu blog, atualizei meu ```Gemfile```([4f145cba](https://gith
 
 Pronto, mandei para o heroku e toto está rodando com jruby
 
+***<a href="https://plus.google.com/109270548417191996419?rel=author">- Duke</a>***

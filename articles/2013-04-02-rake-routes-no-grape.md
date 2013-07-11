@@ -28,3 +28,5 @@ Lembrando que ```MyProject::API``` deve ser alterado para sua classe. Rodando ``
      GET        /resourceX/:id(.:format)
      POST       /resourceX
      ...</code></pre>
+
+***<a href="https://plus.google.com/109270548417191996419?rel=author">- Duke</a>***
