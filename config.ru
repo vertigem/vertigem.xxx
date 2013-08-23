@@ -25,6 +25,7 @@ toto = Toto::Server.new do
   set :disqus,    'hermesvertigemxxx'                                     # disqus id, or false
   set :ext,       'md'                                     # file extension for articles
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+  set :url, 'http://www.vertigem.xxx'
 end
 
 run toto
