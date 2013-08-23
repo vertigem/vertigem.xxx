@@ -47,6 +47,7 @@ a {
 pre{
   margin: 23.608px 0;
   white-space: pre-wrap;
+  font-size: 14.591px;
 }
 
 code{
@@ -56,9 +57,15 @@ code{
 
 blockquote{
   border-left: 8px solid #ED245D;
-  padding-left: 20px;
+  padding-left: 23.608px;
   font-style: italic;
-  color: #555
+  color: #555;
+  font-size: 23.000px;
+  background: #FFF;
+}
+
+small{
+  font-size:14.215px;
 }
 
 body>header{
@@ -148,3 +155,5 @@ footer {
   font-style: italic;
   font-size: 14.591px;
 }
+
+@import "tomorrow-night";
