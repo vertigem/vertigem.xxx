@@ -5,7 +5,7 @@ author: Duke
 
 Para quem não conhece o toto, vai uma descrição rápida:
 
-	toto is a git-powered, minimalist blog engine for the hackers of Oz. The engine weighs around ~300 sloc at its worse. There is no toto client, at least for now; everything goes through git.
+> toto is a git-powered, minimalist blog engine for the hackers of Oz. The engine weighs around ~300 sloc at its worse. There is no toto client, at least for now; everything goes through git.
 
 Estou usando o toto nesse blog e como ando brincando com jruby, resolvi portar o toto para jruby.
 
