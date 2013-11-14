@@ -5,12 +5,13 @@ author: Duke
 
 Postei um video falando um pouco sobre o **Go(golang)**
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/t9ZRqtokVgQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<object width="800" height="450"><param name="movie" value="//www.youtube.com/v/t9ZRqtokVgQ?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/t9ZRqtokVgQ?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="800" height="450" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
 
 
 #### Código final:
 
-<pre><code class="go">package main
+<pre><code class='go'>package main
 
 import "fmt"
 
@@ -20,7 +21,7 @@ type Message struct {
 }
 
 func NewMessage(name string, body string) (message *Message) {
-  return &Message{ name: name, body: body }
+  return &nbsp;Message{ name: name, body: body }
 }
 
 func (m *Message) GoDuke() (err bool) {
@@ -33,7 +34,7 @@ func (m *Message) GoDuke() (err bool) {
 
 func main() {
   var name string
-  fmt.Scan(&name)
+  fmt.Scan(&nbsp;name)
 
   message := NewMessage(name, "")
   err := message.GoDuke()
@@ -44,3 +45,5 @@ func main() {
     fmt.Println(message.body)
   }
 }</code></pre>
+
+***<a href="https://plus.google.com/109270548417191996419?rel=author">- Duke</a>***
