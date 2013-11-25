@@ -1,20 +1,20 @@
-@import 'reset';
+/* @import 'reset';
 
 /* http://modularscale.com/scale/?px1=23&px2=100&ra1=1.618 */
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 23px;
+/*  font-size: 23px;
   font-style: normal;
   line-height: 1.624;
   color: #444;
-  background: #F7F7F7;
+  background: #F7F7F7;*/
 }
 
 h1, h2, h3, h4, h5, h6{
   font-weight: 700;
 }
-
+/*
 h3, h4 {
   padding-top: 14.215px;
 }
@@ -43,7 +43,7 @@ a {
   color: #477B96;
   text-decoration: none
 }
-
+*/
 pre{
   margin: 23.608px 0;
   white-space: pre-wrap;
@@ -54,7 +54,7 @@ code{
   font-family: monospace;
   padding: 3.445px;
 }
-
+/*
 blockquote{
   border-left: 8px solid #ED245D;
   padding-left: 23.608px;
@@ -67,7 +67,7 @@ blockquote{
 small{
   font-size:14.215px;
 }
-
+*/
 body>header{
   padding-bottom: 60.212px;
   overflow: hidden;
@@ -79,9 +79,17 @@ body>header{
       text-decoration: none;
       font-size: 22.608px;
     }
+    + a {
+      margin: 0 14.591px;
+    }
   }
 }
 
+#posts, #post {
+  margin: 0;
+  padding: 0 20px
+}
+/*
 #content{
   max-width: 800px;
   margin: 0 auto;
@@ -146,7 +154,7 @@ article{
     }
   }
 }
-
+*/
 footer {
   clear: both;
   text-align: center;
@@ -155,5 +163,8 @@ footer {
   font-style: italic;
   font-size: 14.591px;
 }
+/*
 
 @import "tomorrow-night";
+
+*/

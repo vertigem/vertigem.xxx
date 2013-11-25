@@ -1,78 +1,47 @@
-/* _reset
------------------------------------------------------------------------------*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0 none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0;
-  padding: 0;
-  vertical-align: baseline; }
-
-table {
-  border-collapse: separate;
-  border-spacing: 0; }
-
-caption, th, td {
-  font-weight: normal;
-  text-align: left; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: ""; }
-
-blockquote, q {
-  quotes: "" ""; }
-
-strong {
-  font-weight: bold; }
-
-em {
-  font-style: italic; }
-
-* {
-  margin: 0;
-  padding: 0; }
+/* @import 'reset';
 
 /* http://modularscale.com/scale/?px1=23&px2=100&ra1=1.618 */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-style: normal;
-  line-height: 1.624;
-  color: #444;
-  background: #F7F7F7; }
+  /*  font-size: 23px;
+    font-style: normal;
+    line-height: 1.624;
+    color: #444;
+    background: #F7F7F7;*/ }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
+/*
 h3, h4 {
-  padding-top: 14.215px; }
+  padding-top: 14.215px;
+}
 
-h1 {
-  font-size: 97.423px; }
-
-h2 {
-  font-size: 61.805px; }
-
-h3 {
-  font-size: 38.198px; }
-
-h4 {
+h1{
+  font-size: 97.423px;
+}
+h2{
+  font-size: 61.805px;
+}
+h3{
+  font-size: 38.198px;
+}
+h4{
   font-size: 23.608px;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #333;
+}
+
 
 p {
   font-weight: 400;
-  color: #282828; }
+  color: rgb(40, 40, 40);
+}
 
 a {
   color: #477B96;
-  text-decoration: none; }
-
+  text-decoration: none
+}
+*/
 pre {
   margin: 23.608px 0;
   white-space: pre-wrap;
@@ -82,14 +51,20 @@ code {
   font-family: monospace;
   padding: 3.445px; }
 
-blockquote {
+/*
+blockquote{
   border-left: 8px solid #ED245D;
   padding-left: 23.608px;
   font-style: italic;
   color: #555;
   font-size: 23.000px;
-  background: #FFF; }
+  background: #FFF;
+}
 
+small{
+  font-size:14.215px;
+}
+*/
 body > header {
   padding-bottom: 60.212px;
   overflow: hidden; }
@@ -100,51 +75,79 @@ body > header {
       color: #ED245D;
       text-decoration: none;
       font-size: 22.608px; }
+    body > header h1 + a {
+      margin: 0 14.591px; }
 
-#content {
+#posts, #post {
+  margin: 0;
+  padding: 0 20px; }
+
+/*
+#content{
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 14.591px; }
-  #content .author {
+  padding: 0 14.591px;
+
+  .author{
     color: #555;
-    font-weight: 600; }
-  #content time {
-    color: #999; }
-  #content ul#posts {
-    list-style-type: none; }
-    #content ul#posts li {
+    font-weight: 600;
+  }
+  time{
+    color: #999;
+  }
+  ul#posts{
+    list-style-type: none;
+    li{
       overflow: hidden;
       padding: 37.214px 0;
-      border-bottom: 1px solid #dddddd; }
-    #content ul#posts h2 {
+      border-bottom: 1px solid #DDD
+    }
+
+    h2 {
       font-size: 60.212px;
       line-height: 1;
       text-align: left;
-      float: left; }
-      #content ul#posts h2 a {
-        color: #000; }
+      //margin: 13.929px 1.004px;
+      //margin-top: 0;
+      float: left;
+      a {
+        color: #000;
+      }
+    }
+  }
+}
 
-article h2 {
-  line-height: 1.316; }
-article ul {
-  list-style-position: inside;
-  margin: 14.215px; }
-article p {
-  margin: 23.608px 0; }
+article{
+  h2{
+    line-height: 1.316
+  }
+  ul{
+    list-style-position: inside;
+    margin: 14.215px
+  }
+  p{
+    margin: 23.608px 0;
+  }
+}
 
-.comments {
-  margin-top: 37.214px; }
-  .comments .comment {
+.comments{
+  margin-top: 37.214px;
+  .comment {
     border-bottom: 1px solid #DDDDDD;
     margin: 0.634em 0;
-    padding: 9.014 0; }
-    .comments .comment p {
-      margin: 0.392em auto; }
-      .comments .comment p .author {
-        font-weight: bold; }
-      .comments .comment p .date {
-        color: #aaa; }
-
+    padding: 9.014 0;
+    p {
+      margin: 0.392em auto;
+      .author {
+        font-weight: bold;
+      }
+      .date {
+        color: #aaa;
+      }
+    }
+  }
+}
+*/
 footer {
   clear: both;
   text-align: center;
@@ -153,39 +156,8 @@ footer {
   font-style: italic;
   font-size: 14.591px; }
 
-/* Tomorrow Night Theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-.tomorrow-comment, pre .comment, pre .title {
-  color: #969896; }
+/*
 
-.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
-  color: #cc6666; }
+@import "tomorrow-night";
 
-.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-  color: #de935f; }
-
-.tomorrow-yellow, pre .class, pre .ruby .class .title, pre .css .rules .attribute {
-  color: #f0c674; }
-
-.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-  color: #b5bd68; }
-
-.tomorrow-aqua, pre .css .hexcolor {
-  color: #8abeb7; }
-
-.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
-  color: #81a2be; }
-
-.tomorrow-purple, pre .keyword, pre .javascript .function {
-  color: #b294bb; }
-
-pre code {
-  display: block;
-  background: #1d1f21;
-  color: #c5c8c6;
-  font-family: Menlo, Monaco, Consolas, monospace;
-  line-height: 1.5;
-  border: 1px solid #ccc;
-  padding: 10px; }
+*/
